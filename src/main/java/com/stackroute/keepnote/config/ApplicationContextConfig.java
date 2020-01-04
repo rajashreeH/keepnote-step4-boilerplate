@@ -46,7 +46,7 @@ public class ApplicationContextConfig {
 	 * name 2. Database URL 3. UserName 4. Password
 	 */
 
-	@Bean
+	/*@Bean
 	@Autowired
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -55,9 +55,9 @@ public class ApplicationContextConfig {
         dataSource.setUsername("root");
         dataSource.setPassword("root");
 		return dataSource;
-	}
+	}*/
 	
-	/*@Bean
+	@Bean
 	@Autowired
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
