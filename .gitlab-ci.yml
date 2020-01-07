@@ -2,7 +2,7 @@ services:
   - 'mysql:5.7'
 variables:
   MYSQL_HOST: localhost
-  MYSQL_DATABASE: keepnote
+  MYSQL_DATABASE: keepNote
   MYSQL_CI_URL: jdbc:mysql://${MYSQL_HOST}/${MYSQL_DATABASE}?verifyServerCertificate=false&requireSSL=false
   MYSQL_ROOT_PASSWORD: root
 image: "maven:3.5.2-jdk-8"
